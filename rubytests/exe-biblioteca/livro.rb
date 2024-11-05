@@ -13,7 +13,14 @@ class Livro
     puts("DIgite o isbn:")
     @isbn = gets.chomp
   end
+# def emprestar
+#   if disponibilidade == true
+#     none
+def exibirLivro
+  puts("titulo:#{@nome} \n autor:#{@autor} \n isbn:#{@isbn} \n disponibilidade#{@disponibilidade}")
 end
+
+ end
 
 
 livro = Livro.new
